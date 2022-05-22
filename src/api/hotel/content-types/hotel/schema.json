@@ -30,15 +30,8 @@
       "target": "api::booking.booking",
       "inversedBy": "hotels"
     },
-    "cover": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "imgsrc": {
+      "type": "string"
     }
   }
 }
